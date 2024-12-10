@@ -1,0 +1,69 @@
+body {
+    background-color: #1f2937; /* Gray-black */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+nav, footer {
+    background-color: #374151; /* Slightly lighter gray */
+    padding: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #dc2626; /* Red for buttons and links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #dc2626;
+}
+
+button {
+    background-color: #dc2626;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #991b1b; /* Darker red */
+}
+
+form input, form select, form textarea {
+    background-color: #374151;
+    color: white;
+    border: 1px solid #4b5563;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    outline: none;
+    border-color: #dc2626; /* Red border for focus */
+    box-shadow: 0 0 5px #dc2626;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #374151;
+    margin-top: 2rem;
+}
+
+table thead {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+table td, table th {
+    border: 1px solid #4b5563;
+    padding: 0.5rem;
+    text-align: left;
+}
